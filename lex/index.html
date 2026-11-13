@@ -9,7 +9,8 @@
 <meta property="og:title" content="Lex Alizer · Compaiser">
 <meta property="og:description" content="Founder & CEO · Consultor de empresas y tecnología. Guarda mi contacto.">
 <meta property="og:url" content="https://compaiser.github.io/lex/">
-<link rel="icon" type="image/svg+xml" href="/icon.svg">
+<link rel="icon" type="image/png" href="/assets/compaiser-apple.png">
+<link rel="apple-touch-icon" href="/assets/compaiser-apple.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -28,6 +29,7 @@
 
   .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
   .brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.32em;font-size:12px;color:#e6e6e8}
+  .logo{height:30px;width:auto;display:block}
   .mark{width:26px;height:26px;border-radius:7px;background:var(--silver);display:grid;place-items:center;color:#000;font-weight:800;font-size:14px;letter-spacing:0;box-shadow:0 0 18px rgba(255,255,255,.18)}
   .iconbtn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line2);background:rgba(255,255,255,.04);display:grid;place-items:center;color:#e9e9eb;cursor:pointer}
   .iconbtn svg{width:18px;height:18px}
@@ -77,6 +79,7 @@
   .panel p{font-size:13px;color:var(--muted);text-align:center;margin-top:4px}
   .qr{margin:18px auto;width:232px;height:232px;border-radius:20px;background:#fff;padding:16px;position:relative}
   .qr svg{width:100%;height:100%;display:block}
+  .qr .center img,.qrwrap .center img{width:62%;height:62%;object-fit:contain}
   .qr .center{position:absolute;inset:0;margin:auto;width:46px;height:46px;border-radius:12px;background:#000;display:grid;place-items:center;color:#e5e5e7;font-weight:800;font-size:22px;border:4px solid #fff}
   .url{text-align:center;font-size:13px;color:#d6d7da;margin-bottom:14px;word-break:break-all}
   .two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -90,7 +93,7 @@
 <div class="glow"></div><div class="grid"></div>
 <main>
   <div class="top">
-    <div class="brand"><div class="mark">C</div>COMPAISER</div>
+    <div class="brand"><img class="logo" src="/assets/compaiser-logo.png" alt="Compaiser"></div>
     <button class="iconbtn" id="openShare" aria-label="Compartir tarjeta">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M16 6l-4-4-4 4"/><path d="M12 2v14"/></svg>
     </button>
@@ -137,7 +140,7 @@
   <div class="panel">
     <h2>Escanea mi tarjeta</h2>
     <p>Apunta la cámara al código o acerca el móvil</p>
-    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges" class="segno"><path class="qrline" stroke="#0a0a0a" d="M0 0.5h7m3 0h1m5 0h1m1 0h4m1 0h2m1 0h7m-33 1h1m5 0h1m2 0h3m1 0h1m1 0h2m1 0h4m1 0h1m2 0h1m5 0h1m-33 1h1m1 0h3m1 0h1m6 0h3m1 0h1m1 0h1m3 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m3 0h1m3 0h6m2 0h3m1 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h1m2 0h2m1 0h1m2 0h2m4 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m5 0h1m3 0h1m1 0h2m1 0h1m1 0h2m1 0h3m1 0h1m1 0h1m5 0h1m-33 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h1m4 0h1m2 0h2m1 0h2m3 0h1m-23 1h2m2 0h4m1 0h1m1 0h1m2 0h1m3 0h4m1 0h2m1 0h1m-29 1h1m3 0h1m2 0h3m1 0h3m2 0h1m1 0h1m2 0h1m1 0h1m1 0h2m2 0h1m2 0h1m-32 1h2m1 0h1m1 0h2m1 0h1m2 0h2m2 0h2m1 0h2m2 0h2m1 0h1m2 0h4m-31 1h1m2 0h1m1 0h1m4 0h3m1 0h1m3 0h1m1 0h1m1 0h2m1 0h3m2 0h1m-33 1h2m2 0h3m2 0h1m1 0h1m2 0h1m1 0h1m3 0h2m3 0h1m1 0h2m-28 1h3m1 0h1m1 0h1m1 0h2m1 0h1m5 0h1m1 0h2m2 0h1m2 0h1m2 0h1m-31 1h1m1 0h1m2 0h2m2 0h3m1 0h2m1 0h1m1 0h2m1 0h1m2 0h1m3 0h3m-31 1h6m1 0h2m1 0h2m1 0h2m3 0h2m1 0h2m1 0h1m3 0h1m1 0h1m-31 1h2m2 0h4m1 0h1m2 0h1m2 0h1m1 0h2m2 0h1m2 0h7m1 0h1m-32 1h1m1 0h2m3 0h2m1 0h3m2 0h1m1 0h2m2 0h2m1 0h4m1 0h3m-33 1h4m1 0h4m3 0h1m3 0h2m3 0h2m2 0h1m4 0h2m-32 1h1m3 0h1m2 0h2m2 0h1m1 0h3m1 0h4m1 0h1m2 0h2m1 0h1m2 0h2m-33 1h1m1 0h1m3 0h1m8 0h1m3 0h3m5 0h1m1 0h4m-33 1h1m2 0h3m3 0h2m1 0h2m2 0h2m1 0h1m2 0h5m2 0h1m2 0h1m-30 1h2m1 0h1m1 0h1m3 0h1m6 0h5m2 0h2m2 0h1m1 0h1m-32 1h5m1 0h1m1 0h1m3 0h2m3 0h3m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m-33 1h1m1 0h2m1 0h3m2 0h1m3 0h2m1 0h1m4 0h7m-21 1h5m1 0h2m4 0h2m2 0h1m3 0h1m-29 1h7m1 0h1m2 0h6m1 0h1m1 0h2m1 0h2m1 0h1m1 0h3m-31 1h1m5 0h1m2 0h1m4 0h4m2 0h1m2 0h2m3 0h5m-33 1h1m1 0h3m1 0h1m7 0h3m1 0h1m3 0h10m-32 1h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h1m1 0h2m1 0h1m4 0h1m1 0h4m-33 1h1m1 0h3m1 0h1m1 0h3m2 0h4m2 0h1m1 0h2m2 0h2m2 0h1m-30 1h1m5 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1m5 0h1m-33 1h7m5 0h1m4 0h2m3 0h2m3 0h2m1 0h1"/></svg><div class="center">C</div></div>
+    <div class="qr"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" shape-rendering="crispEdges" class="segno"><path class="qrline" stroke="#0a0a0a" d="M0 0.5h7m3 0h1m5 0h1m1 0h4m1 0h2m1 0h7m-33 1h1m5 0h1m2 0h3m1 0h1m1 0h2m1 0h4m1 0h1m2 0h1m5 0h1m-33 1h1m1 0h3m1 0h1m6 0h3m1 0h1m1 0h1m3 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m3 0h1m3 0h6m2 0h3m1 0h1m1 0h3m1 0h1m-33 1h1m1 0h3m1 0h1m1 0h1m2 0h2m1 0h1m2 0h2m4 0h1m2 0h1m1 0h3m1 0h1m-33 1h1m5 0h1m3 0h1m1 0h2m1 0h1m1 0h2m1 0h3m1 0h1m1 0h1m5 0h1m-33 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-25 1h1m4 0h1m2 0h2m1 0h2m3 0h1m-23 1h2m2 0h4m1 0h1m1 0h1m2 0h1m3 0h4m1 0h2m1 0h1m-29 1h1m3 0h1m2 0h3m1 0h3m2 0h1m1 0h1m2 0h1m1 0h1m1 0h2m2 0h1m2 0h1m-32 1h2m1 0h1m1 0h2m1 0h1m2 0h2m2 0h2m1 0h2m2 0h2m1 0h1m2 0h4m-31 1h1m2 0h1m1 0h1m4 0h3m1 0h1m3 0h1m1 0h1m1 0h2m1 0h3m2 0h1m-33 1h2m2 0h3m2 0h1m1 0h1m2 0h1m1 0h1m3 0h2m3 0h1m1 0h2m-28 1h3m1 0h1m1 0h1m1 0h2m1 0h1m5 0h1m1 0h2m2 0h1m2 0h1m2 0h1m-31 1h1m1 0h1m2 0h2m2 0h3m1 0h2m1 0h1m1 0h2m1 0h1m2 0h1m3 0h3m-31 1h6m1 0h2m1 0h2m1 0h2m3 0h2m1 0h2m1 0h1m3 0h1m1 0h1m-31 1h2m2 0h4m1 0h1m2 0h1m2 0h1m1 0h2m2 0h1m2 0h7m1 0h1m-32 1h1m1 0h2m3 0h2m1 0h3m2 0h1m1 0h2m2 0h2m1 0h4m1 0h3m-33 1h4m1 0h4m3 0h1m3 0h2m3 0h2m2 0h1m4 0h2m-32 1h1m3 0h1m2 0h2m2 0h1m1 0h3m1 0h4m1 0h1m2 0h2m1 0h1m2 0h2m-33 1h1m1 0h1m3 0h1m8 0h1m3 0h3m5 0h1m1 0h4m-33 1h1m2 0h3m3 0h2m1 0h2m2 0h2m1 0h1m2 0h5m2 0h1m2 0h1m-30 1h2m1 0h1m1 0h1m3 0h1m6 0h5m2 0h2m2 0h1m1 0h1m-32 1h5m1 0h1m1 0h1m3 0h2m3 0h3m1 0h1m2 0h1m1 0h1m1 0h1m1 0h2m-33 1h1m1 0h2m1 0h3m2 0h1m3 0h2m1 0h1m4 0h7m-21 1h5m1 0h2m4 0h2m2 0h1m3 0h1m-29 1h7m1 0h1m2 0h6m1 0h1m1 0h2m1 0h2m1 0h1m1 0h3m-31 1h1m5 0h1m2 0h1m4 0h4m2 0h1m2 0h2m3 0h5m-33 1h1m1 0h3m1 0h1m7 0h3m1 0h1m3 0h10m-32 1h1m1 0h3m1 0h1m1 0h6m1 0h1m1 0h1m1 0h2m1 0h1m4 0h1m1 0h4m-33 1h1m1 0h3m1 0h1m1 0h3m2 0h4m2 0h1m1 0h2m2 0h2m2 0h1m-30 1h1m5 0h1m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m1 0h1m1 0h3m1 0h1m5 0h1m-33 1h7m5 0h1m4 0h2m3 0h2m3 0h2m1 0h1"/></svg><div class="center"><img src="/assets/compaiser-simbolo.png" alt=""></div></div>
     <div class="url">compaiser.github.io/lex</div>
     <div class="two">
       <button class="btn secondary" id="copy" style="margin:0">Copiar enlace</button>

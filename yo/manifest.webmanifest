@@ -1,1 +1,1 @@
-{"name":"Mi tarjeta · Lex Alizer","short_name":"Mi tarjeta","start_url":"/yo/","scope":"/yo/","display":"standalone","background_color":"#000000","theme_color":"#000000","icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
+{"name":"Mi tarjeta · Lex Alizer","short_name":"Mi tarjeta","start_url":"/yo/","scope":"/yo/","display":"standalone","background_color":"#000000","theme_color":"#000000","icons":[{"src":"/assets/compaiser-apple.png","sizes":"512x512","type":"image/png","purpose":"any"}]}
